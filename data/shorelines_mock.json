@@ -1,0 +1,507 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "projectName": "郑州山前平原区河湖岸线生态健康诊断",
+        "surveyDate": "2025-06",
+        "totalLength_km": 18.5,
+        "classificationSystem": {
+            "level1": [
+                "生态岸线",
+                "非生态岸线"
+            ],
+            "level2": [
+                "原始自然岸线",
+                "近自然岸线",
+                "硬质岸线"
+            ],
+            "level3": [
+                "基岩型",
+                "砂砾质",
+                "泥质",
+                "草甸型",
+                "抛石护岸",
+                "铅丝石笼",
+                "生态砖",
+                "挂壁植被",
+                "木桩护岸",
+                "混凝土直立式",
+                "浆砌石",
+                "钢筋混凝土框架"
+            ]
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "properties": {
+                "name": "贾鲁河上游段A",
+                "name_en": "Jialu River Upstream A",
+                "level1": "生态岸线",
+                "level2": "原始自然岸线",
+                "level3": "砂砾质",
+                "length_km": 2.8,
+                "criteria": {
+                    "structuralStability": {
+                        "slope": 0.12,
+                        "bankMaterial": "砂砾质",
+                        "protectionType": "无"
+                    },
+                    "ecologicalHealth": {
+                        "vegCoverage_FVC": 0.85,
+                        "vegNPP": 320,
+                        "LAI": 2.8,
+                        "soilOrganicMatter": 28.5,
+                        "biodiversityIndex": 0.78
+                    },
+                    "ecologicalSafety": {
+                        "connectivityIndex": 0.92,
+                        "disturbanceIntensity": 0.08,
+                        "floodRiskLevel": 2
+                    },
+                    "ecologicalService": {
+                        "landscapeAesthetics": 0.82,
+                        "recreationFunction": 0.65
+                    }
+                }
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        113.52,
+                        34.82
+                    ],
+                    [
+                        113.54,
+                        34.825
+                    ],
+                    [
+                        113.56,
+                        34.83
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "properties": {
+                "name": "贾鲁河上游段B",
+                "name_en": "Jialu River Upstream B",
+                "level1": "生态岸线",
+                "level2": "原始自然岸线",
+                "level3": "草甸型",
+                "length_km": 1.5,
+                "criteria": {
+                    "structuralStability": {
+                        "slope": 0.08,
+                        "bankMaterial": "泥质",
+                        "protectionType": "无"
+                    },
+                    "ecologicalHealth": {
+                        "vegCoverage_FVC": 0.92,
+                        "vegNPP": 380,
+                        "LAI": 3.2,
+                        "soilOrganicMatter": 35.2,
+                        "biodiversityIndex": 0.88
+                    },
+                    "ecologicalSafety": {
+                        "connectivityIndex": 0.95,
+                        "disturbanceIntensity": 0.05,
+                        "floodRiskLevel": 1
+                    },
+                    "ecologicalService": {
+                        "landscapeAesthetics": 0.90,
+                        "recreationFunction": 0.72
+                    }
+                }
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        113.56,
+                        34.83
+                    ],
+                    [
+                        113.58,
+                        34.828
+                    ],
+                    [
+                        113.59,
+                        34.825
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "properties": {
+                "name": "贾鲁河中游段A",
+                "name_en": "Jialu River Midstream A",
+                "level1": "生态岸线",
+                "level2": "近自然岸线",
+                "level3": "铅丝石笼",
+                "length_km": 2.2,
+                "criteria": {
+                    "structuralStability": {
+                        "slope": 0.25,
+                        "bankMaterial": "铅丝石笼",
+                        "protectionType": "铅丝石笼护岸"
+                    },
+                    "ecologicalHealth": {
+                        "vegCoverage_FVC": 0.58,
+                        "vegNPP": 180,
+                        "LAI": 1.8,
+                        "soilOrganicMatter": 18.5,
+                        "biodiversityIndex": 0.52
+                    },
+                    "ecologicalSafety": {
+                        "connectivityIndex": 0.55,
+                        "disturbanceIntensity": 0.38,
+                        "floodRiskLevel": 2
+                    },
+                    "ecologicalService": {
+                        "landscapeAesthetics": 0.55,
+                        "recreationFunction": 0.48
+                    }
+                }
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        113.59,
+                        34.825
+                    ],
+                    [
+                        113.61,
+                        34.82
+                    ],
+                    [
+                        113.63,
+                        34.815
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "properties": {
+                "name": "贾鲁河中游段B",
+                "name_en": "Jialu River Midstream B",
+                "level1": "生态岸线",
+                "level2": "近自然岸线",
+                "level3": "抛石护岸",
+                "length_km": 1.8,
+                "criteria": {
+                    "structuralStability": {
+                        "slope": 0.32,
+                        "bankMaterial": "抛石",
+                        "protectionType": "抛石护岸"
+                    },
+                    "ecologicalHealth": {
+                        "vegCoverage_FVC": 0.48,
+                        "vegNPP": 150,
+                        "LAI": 1.5,
+                        "soilOrganicMatter": 12.8,
+                        "biodiversityIndex": 0.45
+                    },
+                    "ecologicalSafety": {
+                        "connectivityIndex": 0.42,
+                        "disturbanceIntensity": 0.52,
+                        "floodRiskLevel": 3
+                    },
+                    "ecologicalService": {
+                        "landscapeAesthetics": 0.45,
+                        "recreationFunction": 0.38
+                    }
+                }
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        113.63,
+                        34.815
+                    ],
+                    [
+                        113.65,
+                        34.81
+                    ],
+                    [
+                        113.66,
+                        34.805
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "properties": {
+                "name": "贾鲁河中游段C",
+                "name_en": "Jialu River Midstream C",
+                "level1": "生态岸线",
+                "level2": "近自然岸线",
+                "level3": "生态砖",
+                "length_km": 1.2,
+                "criteria": {
+                    "structuralStability": {
+                        "slope": 0.28,
+                        "bankMaterial": "生态砖",
+                        "protectionType": "生态护坡砖"
+                    },
+                    "ecologicalHealth": {
+                        "vegCoverage_FVC": 0.62,
+                        "vegNPP": 210,
+                        "LAI": 2.0,
+                        "soilOrganicMatter": 15.5,
+                        "biodiversityIndex": 0.55
+                    },
+                    "ecologicalSafety": {
+                        "connectivityIndex": 0.68,
+                        "disturbanceIntensity": 0.35,
+                        "floodRiskLevel": 2
+                    },
+                    "ecologicalService": {
+                        "landscapeAesthetics": 0.72,
+                        "recreationFunction": 0.65
+                    }
+                }
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        113.66,
+                        34.805
+                    ],
+                    [
+                        113.67,
+                        34.80
+                    ],
+                    [
+                        113.68,
+                        34.795
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "properties": {
+                "name": "贾鲁河下游段A",
+                "name_en": "Jialu River Downstream A",
+                "level1": "非生态岸线",
+                "level2": "硬质岸线",
+                "level3": "混凝土直立式",
+                "length_km": 3.5,
+                "criteria": {
+                    "structuralStability": {
+                        "slope": 0.85,
+                        "bankMaterial": "混凝土",
+                        "protectionType": "混凝土直立式挡墙"
+                    },
+                    "ecologicalHealth": {
+                        "vegCoverage_FVC": 0.08,
+                        "vegNPP": 25,
+                        "LAI": 0.3,
+                        "soilOrganicMatter": 3.2,
+                        "biodiversityIndex": 0.12
+                    },
+                    "ecologicalSafety": {
+                        "connectivityIndex": 0.15,
+                        "disturbanceIntensity": 0.85,
+                        "floodRiskLevel": 4
+                    },
+                    "ecologicalService": {
+                        "landscapeAesthetics": 0.18,
+                        "recreationFunction": 0.22
+                    }
+                }
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        113.68,
+                        34.795
+                    ],
+                    [
+                        113.70,
+                        34.79
+                    ],
+                    [
+                        113.72,
+                        34.785
+                    ],
+                    [
+                        113.74,
+                        34.78
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "properties": {
+                "name": "贾鲁河下游段B",
+                "name_en": "Jialu River Downstream B",
+                "level1": "非生态岸线",
+                "level2": "硬质岸线",
+                "level3": "浆砌石",
+                "length_km": 2.8,
+                "criteria": {
+                    "structuralStability": {
+                        "slope": 0.65,
+                        "bankMaterial": "浆砌块石",
+                        "protectionType": "浆砌石护坡"
+                    },
+                    "ecologicalHealth": {
+                        "vegCoverage_FVC": 0.15,
+                        "vegNPP": 45,
+                        "LAI": 0.5,
+                        "soilOrganicMatter": 5.8,
+                        "biodiversityIndex": 0.18
+                    },
+                    "ecologicalSafety": {
+                        "connectivityIndex": 0.22,
+                        "disturbanceIntensity": 0.72,
+                        "floodRiskLevel": 3
+                    },
+                    "ecologicalService": {
+                        "landscapeAesthetics": 0.25,
+                        "recreationFunction": 0.30
+                    }
+                }
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        113.74,
+                        34.78
+                    ],
+                    [
+                        113.76,
+                        34.775
+                    ],
+                    [
+                        113.78,
+                        34.77
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "properties": {
+                "name": "索须河支流段",
+                "name_en": "Suoxu River Branch",
+                "level1": "生态岸线",
+                "level2": "近自然岸线",
+                "level3": "挂壁植被",
+                "length_km": 1.5,
+                "criteria": {
+                    "structuralStability": {
+                        "slope": 0.35,
+                        "bankMaterial": "混凝土+植被",
+                        "protectionType": "挂壁植被护岸"
+                    },
+                    "ecologicalHealth": {
+                        "vegCoverage_FVC": 0.72,
+                        "vegNPP": 260,
+                        "LAI": 2.4,
+                        "soilOrganicMatter": 22.5,
+                        "biodiversityIndex": 0.62
+                    },
+                    "ecologicalSafety": {
+                        "connectivityIndex": 0.75,
+                        "disturbanceIntensity": 0.28,
+                        "floodRiskLevel": 2
+                    },
+                    "ecologicalService": {
+                        "landscapeAesthetics": 0.78,
+                        "recreationFunction": 0.72
+                    }
+                }
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        113.60,
+                        34.835
+                    ],
+                    [
+                        113.62,
+                        34.84
+                    ],
+                    [
+                        113.64,
+                        34.838
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "properties": {
+                "name": "金水河城区段",
+                "name_en": "Jinshui River Urban Section",
+                "level1": "非生态岸线",
+                "level2": "硬质岸线",
+                "level3": "钢筋混凝土框架",
+                "length_km": 1.2,
+                "criteria": {
+                    "structuralStability": {
+                        "slope": 0.90,
+                        "bankMaterial": "钢筋混凝土",
+                        "protectionType": "框格式挡墙"
+                    },
+                    "ecologicalHealth": {
+                        "vegCoverage_FVC": 0.05,
+                        "vegNPP": 15,
+                        "LAI": 0.2,
+                        "soilOrganicMatter": 2.1,
+                        "biodiversityIndex": 0.08
+                    },
+                    "ecologicalSafety": {
+                        "connectivityIndex": 0.10,
+                        "disturbanceIntensity": 0.92,
+                        "floodRiskLevel": 4
+                    },
+                    "ecologicalService": {
+                        "landscapeAesthetics": 0.15,
+                        "recreationFunction": 0.35
+                    }
+                }
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        113.65,
+                        34.755
+                    ],
+                    [
+                        113.67,
+                        34.758
+                    ],
+                    [
+                        113.69,
+                        34.76
+                    ]
+                ]
+            }
+        }
+    ]
+}

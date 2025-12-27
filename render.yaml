@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: river-eco-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: backend_node
+    envVars:
+      - key: NODE_ENV
+        value: production
